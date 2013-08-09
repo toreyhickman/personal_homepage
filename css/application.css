@@ -1,3 +1,11 @@
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 body {
   background-color: #050508;
 }
@@ -30,4 +38,28 @@ header {
   margin: 20px 0 0 10%;
   width: 135px;
   height: 45px;
+}
+
+.wrap {
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.social_media {
+  width: 80%;
+  margin: 120px 10% 0 10%;
+}
+
+.social_media_link {
+  width: 76px;
+  height: 76px;
+  background-color: #eee;
+}
+
+.social_media_link.left {
+  margin-right: 5%;
+}
+
+.social_media_link.right {
+  margin-left: 5%;
 }
