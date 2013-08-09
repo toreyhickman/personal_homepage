@@ -31,8 +31,3 @@ header {
   width: 135px;
   height: 45px;
 }
-
-.thirty-opacity {
-  opacity: 0.30;
-  filter:alpha(opacity = 30);
-}
