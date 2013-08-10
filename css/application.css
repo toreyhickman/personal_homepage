@@ -41,7 +41,7 @@ header {
 }
 
 .wrap {
-  overflow: auto;
+  overflow: hidden;
   margin: 0 auto;
 }
 
