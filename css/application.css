@@ -1,3 +1,11 @@
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 body {
   background-color: #050508;
 }
@@ -30,4 +38,47 @@ header {
   margin: 20px 0 0 10%;
   width: 135px;
   height: 45px;
+}
+
+.wrap {
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.social-media {
+  width: 80%;
+  margin: 160px 10% 0 10%;
+  text-align: center;
+}
+
+.media-icon-holder {
+  width: 76px;
+  height: 76px;
+  /*background: #333;*/
+}
+
+.github {
+  background: url('../images/github.png');
+}
+
+.round-corners-six {
+  border-radius: 6px;
+}
+
+.media-icon-holder.left {
+  margin-right: 3%;
+}
+
+.media-icon-holder.right {
+  margin-left: 3%;
+}
+
+.media-icon {
+  opacity: 0.3;
+  filter:alpha(opacity=30);
+}
+
+.media-icon:hover {
+  opacity: 0.9;
+  filter:alpha(opacity-90);
 }
