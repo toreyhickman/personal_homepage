@@ -122,3 +122,11 @@ nav {
   width: 308px;
   padding-left: 20px;
 }
+
+.text a, .text a:visited {
+  color: #b2742d;
+}
+
+.text a:hover {
+  color: DarkOrange;
+}
