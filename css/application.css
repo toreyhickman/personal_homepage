@@ -45,21 +45,40 @@ header {
   margin: 0 auto;
 }
 
-.social_media {
+.social-media {
   width: 80%;
   margin: 120px 10% 0 10%;
+  text-align: center;
 }
 
-.social_media_link {
+.media-icon-holder {
   width: 76px;
   height: 76px;
-  background-color: #eee;
+  /*background: #333;*/
 }
 
-.social_media_link.left {
-  margin-right: 5%;
+.github {
+  background: url('../images/github.png');
 }
 
-.social_media_link.right {
-  margin-left: 5%;
+.round-corners-six {
+  border-radius: 6px;
+}
+
+.media-icon-holder.left {
+  margin-right: 6.75%;
+}
+
+.media-icon-holder.right {
+  margin-left: 6.75%;
+}
+
+.media-icon {
+  opacity: 0.3;
+  filter:alpha(opacity=30);
+}
+
+.media-icon:hover {
+  opacity: 0.9;
+  filter:alpha(opacity-90);
 }
