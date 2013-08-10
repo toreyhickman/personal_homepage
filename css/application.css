@@ -47,7 +47,7 @@ header {
 
 .social-media {
   width: 80%;
-  margin: 120px 10% 0 10%;
+  margin: 160px 10% 0 10%;
   text-align: center;
 }
 
@@ -66,11 +66,11 @@ header {
 }
 
 .media-icon-holder.left {
-  margin-right: 6.75%;
+  margin-right: 3%;
 }
 
 .media-icon-holder.right {
-  margin-left: 6.75%;
+  margin-left: 3%;
 }
 
 .media-icon {
