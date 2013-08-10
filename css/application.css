@@ -10,6 +10,10 @@
   border-radius: 6px;
 }
 
+.hidden {
+  display: none;
+}
+
 a, a:visited {
   text-decoration: none;
   color: #999;
@@ -104,7 +108,7 @@ header {
 
 .content {
   width: 656px;
-  margin: -80px auto 0 auto;
+  margin: -80px auto 100px auto;
   min-height: 200px;
   color: #999;
 }
@@ -116,6 +120,15 @@ header {
 
 nav {
   margin-top: 30px;
+}
+
+.fake_anchor {
+  transition: color .3s;
+}
+
+.fake_anchor:hover {
+  color: #eee;
+  cursor: pointer;
 }
 
 .text {
