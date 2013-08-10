@@ -6,6 +6,14 @@
   float: right;
 }
 
+.round-corners-six {
+  border-radius: 6px;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
 body {
   background-color: #050508;
 }
@@ -13,9 +21,9 @@ body {
 header {
   margin: 0 auto;
   width: 100%;
-  height: 450px;
+  height: 420px;
 
-  background: black url('../images/DSC_8061b.jpg') no-repeat center center;
+  background: black url('../images/DSC_8061b.jpg') no-repeat center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -34,48 +42,39 @@ header {
   }
 }
 
-.signature {
-  margin: 20px 0 0 10%;
-  width: 135px;
-  height: 45px;
-}
-
 .wrap {
   overflow: hidden;
   margin: 0 auto;
 }
 
 .social-media {
-  width: 80%;
-  margin: 160px 10% 0 10%;
-  text-align: center;
+  width: 656px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  /*text-align: center;*/
 }
 
 .media-icon-holder {
   width: 76px;
   height: 76px;
-  /*background: #333;*/
+  padding: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.github {
-  background: url('../images/github.png');
+.social-media .media-icon-holder:first-child {
+  margin-left: 0;
 }
 
-.round-corners-six {
-  border-radius: 6px;
-}
-
-.media-icon-holder.left {
-  margin-right: 3%;
-}
-
-.media-icon-holder.right {
-  margin-left: 3%;
+.social-media .media-icon-holder:last-child {
+  margin-right: 0;
 }
 
 .media-icon {
   opacity: 0.3;
   filter:alpha(opacity=30);
+  transition: opacity .3s;
 }
 
 .media-icon:hover {
