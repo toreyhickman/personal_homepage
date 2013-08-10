@@ -34,7 +34,7 @@ h1 {
 body {
   background-color: #050508;
   font-family: helvetica;
-  font-size; 14px
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -114,7 +114,7 @@ header {
   padding-right: 20px;
 }
 
-.info-list-wrap {
+nav {
   margin-top: 30px;
 }
 
