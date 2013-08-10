@@ -10,12 +10,32 @@
   border-radius: 6px;
 }
 
-a, a:visited, a:hover {
+a, a:visited {
   text-decoration: none;
+  color: #999;
+  transition: color .3s;
+}
+
+a:hover {
+  color: #eee;
+}
+
+p {
+  padding: 8px 0 0 0;
+  margin: 0;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
 }
 
 body {
   background-color: #050508;
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 header {
@@ -80,4 +100,25 @@ header {
 .media-icon:hover {
   opacity: 0.9;
   filter:alpha(opacity-90);
+}
+
+.content {
+  width: 656px;
+  margin: -80px auto 0 auto;
+  min-height: 200px;
+  color: #999;
+}
+
+.info {
+  width: 308px;
+  padding-right: 20px;
+}
+
+nav {
+  margin-top: 30px;
+}
+
+.text {
+  width: 308px;
+  padding-left: 20px;
 }
