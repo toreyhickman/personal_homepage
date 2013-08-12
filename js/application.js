@@ -1,11 +1,12 @@
-function getIntro() {
-  $.get('aboutme.html', function(data) {
+function updateText(page) {
+  $.get(page, function(data) {
+    $(".text").html("")
     $(".text").html(data)
   })
 }
 
 $(document).ready(function() {
 
-  getIntro()
-   
+  updateText('aboutme.html')
+
 })
