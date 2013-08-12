@@ -1,3 +1,10 @@
+var idPageMap = {
+  'introduction': 'aboutme.html',
+  'work':         'work.html',
+  'education':    'education.html',
+  'personal':     'personal.html'
+}
+
 function updateText(page) {
   $.get(page, function(data) {
     $(".text").html("")
@@ -8,5 +15,10 @@ function updateText(page) {
 $(document).ready(function() {
 
   updateText('aboutme.html')
+
+  $('nav span').on('click', function() {
+    var id = ($(this).attr('id'))
+    updateText(idPageMap[id])
+  })
 
 })
