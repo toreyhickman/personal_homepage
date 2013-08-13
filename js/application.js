@@ -1,8 +1,7 @@
 var idPageMap = {
   'introduction': 'aboutme.html',
   'work':         'work.html',
-  'education':    'education.html',
-  'personal':     'personal.html'
+  'education':    'education.html'
 }
 
 function updateText(page) {
