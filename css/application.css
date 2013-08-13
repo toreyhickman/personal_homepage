@@ -137,6 +137,18 @@ nav {
   padding-left: 20px;
 }
 
+.text p:first-child {
+  padding-top: 0;
+}
+
+.text-section {
+  margin-top: 40px;
+}
+
+.text .text-section:first-child {
+  margin-top: 0;
+}
+
 .text a, .text a:visited {
   color: #b2742d;
 }
